@@ -1,0 +1,81 @@
+/* Reset CSS básico */
+
+/* Márgens e preenchimento */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo de fonte */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Estilo de fonte */
+fieldset,
+img {
+  border: 0;
+}
+
+/* Listas */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Hiperlinks */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Botões e inputs */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+/* Botões */
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Limpar elementos flutuantes */
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
